@@ -1,0 +1,30 @@
+body{
+    background-image: url(../Images/WALLPAPER\ LEBRON.JPEG);
+}
+
+.nav{
+    width: 100%;
+    font-weight: bold;
+    margin-left: 22%;
+    height: max-content;
+}
+
+h4{
+    font-style: italic;
+}
+
+#citation{
+    color: white;
+}
+
+h5{
+    color: white;
+}
+
+#titre{
+    color: wheat;
+}
+
+h3{
+    text-decoration: underline;
+}

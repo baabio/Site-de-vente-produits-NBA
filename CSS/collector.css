@@ -1,0 +1,21 @@
+#photo{
+    text-align: center;
+}
+
+#nav{
+    text-align: center;
+}
+
+h5{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+h3{
+    margin-left: 10%;
+}
+
+body{
+    background-image: url(../Images/wallpaper\ nba4.jpg);
+    color: rgb(253, 252, 250);
+}

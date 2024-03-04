@@ -1,0 +1,29 @@
+body{
+    margin: 5%;
+    padding: 5%;
+    border: 9px solid;
+    border-radius: 4%;
+    background-image: url(../Images/wallpaperNBA3.jpg);
+
+}
+.form{
+    width: 100%;    
+}
+
+legend{
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(170, 61, 61);
+    margin: 2%;
+    font-variant: small-caps;
+    font-size: larger;
+    text-decoration: underline;
+}
+
+h1{
+    color: wheat;
+}
+
+label{
+    color: wheat;
+}

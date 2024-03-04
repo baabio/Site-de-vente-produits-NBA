@@ -1,0 +1,35 @@
+h6{
+    font-style: italic;
+}
+
+h1{
+    margin-left: 20%;
+    color: blue;
+}
+
+h6{
+    margin-left: 10%;
+}
+
+.bottom{
+    padding-top: 27%;
+    margin-left: 1%;
+    color: wheat;
+}
+
+#connect{
+    margin-left: 35%;
+}
+
+body{
+    background-image: url(../Images/wallpaperNBA3.jpg);
+}
+
+h4{
+    color: #501616;
+}
+
+button{
+    margin-top: 1%;
+    margin-left: 2%;
+}

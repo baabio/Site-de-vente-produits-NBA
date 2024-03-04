@@ -1,0 +1,31 @@
+body{
+    background-image: url(../Images/WALLPAPERNBA.jpg);
+}
+
+h1{
+    margin: auto;
+    padding-top: 2%;
+    text-align: center;
+    color: rgb(221, 133, 117);
+    font-weight: bold;
+
+}
+
+#tof{
+    margin-left: 5%;
+}
+
+#bouton{
+    margin-left: 5%;
+    margin-top: 2%;
+    color: rgb(7, 7, 7);
+}
+
+#bout a:hover{
+    color: wheat;
+}
+
+h5{
+    color: rgb(235, 92, 92);
+    border: 3px solid;
+}

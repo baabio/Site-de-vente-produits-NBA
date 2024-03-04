@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="CSS/accueil.css">
+    <title>Accueil</title>
+</head>
+<body>
+
+  <div>
+    <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">BabioShop</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarColor02">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <a class="nav-link active" href="#"><a href="articles.html">Tous les Articles</a>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="detailArticle1.html">Ballons</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="detailArticle3.html">Maillots</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="detailArticle5.html">Chaussures</a>
+              </li>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-sm-2" type="search" placeholder="Chercher">
+              <button class="btn btn-secondary my-2 my-sm-0" type="submit"><a href="articles.html">Ok</a></button>
+              <button type="button" class="btn btn-primary position-relative"><a href="connexion.html"><h5>Panier</h5></a>
+                <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">+1
+                </span>
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+    <div>
+        <div class="d-grid gap-2">
+            <button class="btn btn-lg btn-primary" type="button"><h4>1er site de vente d'articles dédicacés en ligne de Basket NBA <img src="Images/shopping-bag.svg" alt=""></h4></button>
+        </div>
+    </div>
+
+    <div>
+      <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid">
+          <div><span class="navbar-text">
+            <img src="credit-card.svg" alt=""> <b>Livraison gratuite dès 130€</b>
+          </span></div>
+          <div><span class="navbar-text">
+            <img src="Images/rotate-ccw.svg" alt=""> <b>Retour sous 30 jours</b>
+          </span></div>
+          <div><span class="navbar-text">
+            <img src="Images/briefcase.svg" alt=""> <b>Expédition rapide</b>
+          </span></div>
+          <div><span class="navbar-text">
+            <img src="Images/phone-call.svg" alt=""> <b>Service client: 01.02.03.04.05</b>
+          </span></div>
+          <div><span class="navbar-text">
+            <img src="Images/book-open.svg" alt=""> <b>Avis</b> 
+          </span></div>
+          <div><span class="navbar-text">
+           <b>Suivez-nous sur:</b><a href="https://www.facebook.com/"><img src="Images/facebook.svg" alt=""></a> <a href="https://www.instagram.com/"><img src="Images/instagram.svg" alt=""></a> <a href="https://twitter.com/"><img src="Images/twitter.svg" alt=""></a> <a href="https://www.linkedin.com/"><img src="Images/linkedin.svg" alt=""></a>
+        </span></div>
+        </div>
+      </nav>
+    </div>
+
+    <div class="row">
+        <div class="col-1"></div>
+        <div class="col-9">
+          <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <a href="https://www.youtube.com/watch?v=L2evguInh5Y"><img src="Images/HD-wallpaper-lebron-james-basketball-golden.jpg" class="d-block w-100" alt="..." height="900px" weight="100px"></a>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <a href="https://www.youtube.com/watch?v=cuLprHh_BRg"><img src="Images/MJ23.jpg" class="d-block w-100" alt="..."></a>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <a href="https://www.youtube.com/watch?v=HR6BvC5IaN8"><img src="Images/WALLPAPER7.jpg" class="d-block w-100" alt="..."></a>
+              </div>
+              <div class="carousel-item">
+                <a href="https://www.youtube.com/watch?v=UQWUHh3rJFo"><img src="Images/WALLPAPER6.jpg" class="d-block w-100" alt="..."></a>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+      </div>
+
+      <div class="col-2">
+        <div class="form-group">
+          <label class="form-label mt-4"><h5>Espace de connexion</h5></label>
+          <div class="form-floating mb-3">
+            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+            <label for="floatingInput">Adresse mail</label>
+          </div>
+          <div class="form-floating">
+            <input type="password" class="form-control" id="floatingPassword" placeholder="Password" autocomplete="off">
+            <label for="floatingPassword">Mot de passe</label>
+          </div>
+        <br>
+        <div>
+          <button id="color" type="button" class="btn btn-warning"><a href="connexion.html"><h5>Se connecter</h5></a></button>
+          <button id="color" type="button" class="btn btn-warning"><a href="inscription.html"><h5>S'inscrire</h5></a></button>
+        </div>
+        <br>
+      </div>
+      <div><a href="https://official.nba.com/"><img src="Images/Couleur-logo-NBA (1).jpg" alt=""></a></div>
+      </div>
+    </div>
+
+    <br>
+    <nav class="nav">
+      <a class="nav-link" href="https://www.fiba.basketball/fr"><h1>FIBA</h1></a>
+      <a class="nav-link" href="https://official.nba.com/"><h1>NBA</h1></a>
+      <a class="nav-link" href="https://www.wnba.com/"><h1>WNBA</h1></a>
+      <a class="nav-link" href="https://olympics.com/cio"><h1>CIO</h1></a>
+      <a class="nav-link" href="poster.html"><h1>Posters</h1></a>
+      <a class="nav-link" href="collector.html"><h1>Collector</h1></a>
+    </nav>
+    <br>
+  
+    <div class="container text-center">
+      <div class="row gy-5">
+        <div class="col-4">
+          <a href="Images/maillot.jpg"><div class="p-3"><abbr title="maillot collector Kobe Bryant Champion NBA 2015"><img src="Images/maillot.jpg" alt="..."></abbr></div></a>
+        </div>
+        <div class="col-4">
+          <a href="articles.html"><div class="p-3"><abbr title="maillot collector Lebron James Champion NBA 2017"><img src="Images/LBJ MAILLOT.jpg" alt="..."></abbr></div></a>
+        </div>
+        <div class="col-4">
+          <a href="articles.html"><div class="p-3"></abbr><abbr title="maillot collector Tony Parker Champion NBA 2006"><img src="Images/TP MAILLOT.jpg" alt="..."></abbr></div></a>
+        </div>
+        <div class="col-4">
+          <a href="articles.html"><div class="p-3"><abbr title="Ballon collector lors de la finale NBA 2011" ><img src="Images/BAllon dédicacé.jpg" alt="..."></abbr></div></a>
+        </div>
+        <div class="col-4">
+          <a href="articles.html"><div class="p-3"><abbr title="Ballon collector lors de la finale NBA 2016"><img src="Images/ballon.jpeg" alt="..."></abbr></div></a>
+        </div>
+        <div class="col-4">
+          <a href="articles.html"><div class="p-3"><abbr title="Ballon collector lors de la finale NBA 2019"><img src="Images/ballon.jpg" alt="..."></abbr></div></a>
+        </div>
+        <div class="col-4">
+          <a href="articles.html"><div class="p-3"><abbr title="chaussures collector Lebron James lors de la finale NBA 2007"><img src="Images/chaussure.jpg" alt="..."></abbr></div></a>
+        </div>
+        <div class="col-4">
+          <a href="articles.html"><div class="p-3"><abbr title="chaussures collector Michael Jordan lors de la finale NBA 1989"><img src="Images/Shoes.jpeg" alt="..."></abbr></div></a>
+        </div>
+          <div class="col-4">
+            <a href="articles.html"><div class="p-3"><abbr title="chaussures collector Tracy Mc Grady lors de la finale NBA 1996"><img src="Images/Nike-3.jpg" alt="..."></abbr></div></a>
+        </div>
+      </div>
+    </div>
+    
+    <figure id="citation" class="text-center">
+        <blockquote class="blockquote">
+          <p class="mb-0">Michael Jordan nous invite à ne pas abandonner, à apprendre de nos échecs et à continuer à nous battre. Vous échouerez, encore et encore, avant de gagner. Les prospects refuseront de travailler avec vous. L'échec précède la grandeur. Le succès facile n’existe pas.</p>
+        </blockquote>
+        <figcaption class="blockquote-footer">
+          Michael Jordan <cite title="Source Title">le GOAT</cite>
+        </figcaption>
+    </figure>
+
+    <br>
+    <div id="titre">
+        <nav class="bottom">
+            <div class="row">
+              <div class="col-2">
+                <p><h3>Paiement sécurisé</h3></p>
+                <p>Vos transactions sont 100% sécurisées par carte bancaire ou paypal</p>
+              </div>
+              <div class="col-2">
+                <p><h3>Retour sous 30jours</h3></p>
+                <p>Vous disposez de 30j à compter de l'expédition de votre commande</p>
+              </div>
+              <div class="col-2">
+                <p><h3>Livraison gratuite</h3></p>
+                <p>Vous bénéficiez de la livraison gratuite dès 130€ d'achat</p>
+              </div>
+              <div class="col-2">
+                <p><h3>Expédition rapide</h3></p>
+                <p>Votre commande est prise en charge par nos équipes le plus rapidement possible</p>
+              </div>
+              <div class="col-2">
+                <p><h3>Service clients</h3></p>
+                <p>01.02.03.04.05</p>
+                <p>24h/24 et 7j/7</p>
+              </div>
+              <div class="col-2">
+                <p><h3>Partenariat</h3></p>
+                <p>Partenaire exclusif de la NBA</p>
+              </div>
+            </div>
+          </nav>
+    </div>
+
+  <script src="bootstrap.min.js"></script>
+</body>
+</html>
